@@ -17,7 +17,7 @@ services:
       MEMORY: "8192M"
       STOP_SERVER_ANNOUNCE_DELAY: "60"
       MAX_PLAYERS: "15"
-      MOTD: "§6Server en docker §cLykos §7| §aSurvival"
+      MOTD: "§6Server en Docker §cLykos DevOps §7| §aSurvival 1.21"
       ICON: "https://raw.githubusercontent.com/sleepyy51/Minecraft-Server/c5da060513f2f522d605bf82e5e5546f6d22398a/server-icon.png"
       OVERRIDE_ICON: "true"
       ONLINE_MODE: "false"
