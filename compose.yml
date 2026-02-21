@@ -10,6 +10,7 @@ services:
     cpus: 3.0
     ports:
       - "27532:25565"
+      - "24454:24454/udp"
     environment:
       UID: "1001"
       GID: "1001"
