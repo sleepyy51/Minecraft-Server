@@ -4,6 +4,14 @@ This is a little side project aiming to make a reproducible vanilla SMP using a 
 Since it's mostly for mi personal use I have some plugins plus configs you should modify.\
 See Below on  **What's inside my compose?**
 
+## Installation and Usage
+You need to have Docker installed
+```bash
+git clone https://github.com/sleepyy51/Minecraft-Server.git
+cd Minecraft-Server/
+docker compose up -d
+```
+
 ## Configuration
 This project uses the docker image [itzg/minecraft-server](https://hub.docker.com/r/itzg/minecraft-server), you can modify the compose.yml reading the documentation or using the [following page](https://setupmc.com/java-server/) to create a new compose.yml to your taste.
 
@@ -35,14 +43,6 @@ I have the following plugins installed, feel free to edit or delete them!
 - [Spark](https://spark.lucko.me/)
 - [AuthMe (Because it's an offline server)](https://modrinth.com/plugin/authmerereloaded)
 - [Orbital Strike (I'm too lazy to build the actual thing)](https://modrinth.com/plugin/orbitalstrike-wemmbu)
-
-## Installation and Usage
-You need to have Docker installed
-```bash
-git clone https://github.com/sleepyy51/Minecraft-Server.git
-cd Minecraft-Server/
-docker compose up -d
-```
 
 ## License
 
